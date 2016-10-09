@@ -1,0 +1,61 @@
+<!-- We start with a blank html code -->
+<!-- Specifies this is a HTML file -->
+<!DOCTYPE html>
+<!-- Start of the webpage -->
+    <html>
+        <!-- Metadata for the page. Not displayed -->
+        <head>
+            <title></title>
+            <!-- Where Javascript lives -->
+            <!--resize pixel and make text bigger and readable on mobile device -->
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- <script src="script.js"></script> -->
+    
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+            
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script src="./js/a3_js.js"></script>
+            <link href="./css/a3_style.css" rel="stylesheet">
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        </head>
+        <!-- The real content of the page. Displayed -->
+        
+        <body>
+            <!-- Navigation Bar: hamberger menu, group name -->
+            <nav class="navbar navbar-default">
+                <div id="navbar-header" class="navbar-header">
+                    <div class="col-xs-1">
+                        <button id="back" type="button" class="btn btn-default">
+                            <a class="glyphicon glyphicon-chevron-left" href="./lab.html"></a>
+                        </button>
+                    </div>
+                    <div class="col-xs-8 col-xs-offset-2">
+                        <h2>Add a New Group</h2>
+                    </div>
+                </div>
+            </nav>
+            <div class="action">
+                <div>
+                    <blank>Group Name:</blank>
+                </div>
+                <div>
+                    <input type="text" id="group_name" placeholder="Name your group" class="form-control"></input>
+                </div>
+                <br>
+                <div>
+                    <blank>The group is:</blank>
+                </div>
+                <div class="col-xs-1">
+                    <input type="radio" id="private"></input>     
+                </div>
+                <div  class="col-xs-3">Private</div>
+                <div class="col-xs-1 col-xs-offset-2">
+                    <input type="radio" id="public"></input>     
+                </div>
+                <div  class="col-xs-3">Public</div>   
+            </div>
+        </body>     
+    </html>

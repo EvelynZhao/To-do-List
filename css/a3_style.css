@@ -1,0 +1,92 @@
+body{
+	background-color: #C6EBF2;
+}
+
+.navbar-default{
+	background-color: #7AB5C0;
+}
+
+.navbar-header{
+	border-color: none;	
+}
+
+.navbar-header button{
+	margin-top: 18px;
+}
+
+.menu{
+	border-top: 1pt solid white;
+	background-color: #7AB5C0;
+	color: white;
+	font-size: 12pt;
+	display: none;
+}
+
+.menu-content{
+	margin-left: 20px;
+}
+
+.table button{
+	margin-left: 5px; 
+	margin-top: 2px
+}
+
+h2{
+	color: white;
+}
+
+.item{
+	position: static;
+	border: 0.5px solid lightgrey;
+	background-color: white;
+	border-radius: 5px;
+    width: 100%;
+    float: left;
+    margin-left: 5px;
+}
+
+.itemList{
+	position: static;
+	margin-left: 30px;
+}
+
+
+.item name{
+	font-size: 12pt;
+	color: #565656;
+	margin-left: 10px;
+}
+
+.item attribute{
+	margin-left: 0px;
+	font-size: 10pt;
+	color: grey;
+}
+
+.completed{
+    margin-right: 20px;
+	margin-left: 20px;
+}
+
+.itemList{
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.action {
+	background-color: #C6EBF2;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #4A4A4A;
+}
+
+.action blank{
+	font-style: bold;
+	font-size: pt;
+	color: #4A4A4A;
+	line-height: 3;
+	font-weight: bold;
+}
+
+
+

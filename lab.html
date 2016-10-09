@@ -1,0 +1,88 @@
+<!-- We start with a blank html code -->
+<!-- Specifies this is a HTML file -->
+<!DOCTYPE html>
+<!-- Start of the webpage -->
+    <html>
+        <!-- Metadata for the page. Not displayed -->
+        <head>
+            <title></title>
+            <!-- Where Javascript lives -->
+            <!--resize pixel and make text bigger and readable on mobile device -->
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- <script src="script.js"></script> -->
+    
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+            
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script src="./js/a3_js.js"></script>
+            <link href="./css/a3_style.css" rel="stylesheet">
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        </head>
+        <!-- The real content of the page. Displayed -->
+        
+        <body>
+            <!-- Navigation Bar: hamberger menu, group name -->
+            <nav class="navbar navbar-default">
+                <div id="navbar-header" class="navbar-header">
+                    <div class="col-xs-1">
+                        <button id="hamburger" type="button" class="btn btn-default">
+                            <span class="glyphicon glyphicon-menu-hamburger"></span>
+                        </button>
+                    </div>
+                    <div class="col-xs-2 col-xs-offset-4">
+                        <h2>Today</h2>
+                    </div>
+                </div>
+                <div class="menu" id="menu">
+                    <div class="menu-content">
+                        <table class="table table-condensed">
+                            <tr>Group
+                                <button type="button" id="newGroup" class="btn btn-default btn-xs">
+                                    <a class="glyphicon glyphicon-plus" href="./new_group.html"></a>
+                                </button>
+                            </tr>
+                            <tr>
+                                <ul>
+                                    <li>Today</li>
+                                </ul>
+                            </tr>
+                            <tr>Friend</tr>
+                            <br>
+                            <tr>My Assignment</tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </nav>
+            
+            
+        <!-- Item list -->
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1">
+                <div class="input-group">                        
+                    <input id="inp" type="text" class="form-control" placeholder="Add a new to-do here...">
+                    <span class="input-group-btn">
+                        <button id="add" class="btn btn-default glyphicon glyphicon-plus"type="button" button type="button")"></button>
+                    </span>    
+                </div>
+            </div>
+        </div>
+
+        <div class="itemList" id="itemList">
+            <br>                   
+        </div>
+
+        <br>
+        <br>            
+        <hr>
+
+        <div class="completed" id="completed">
+            <button id="retrieve" type="button" class="btn btn-default btn-xs">Show all completed items</button>
+            <br><br>
+        </div>    
+
+    </body>     
+</html>
